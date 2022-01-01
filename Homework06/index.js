@@ -4,7 +4,7 @@ const Router = require("@koa/router");
 const app = new Koa();
 const router = new Router();
 
-const port = 5000;
+const port = 3000;
 
 router.get("/", (ctx, next) => {
   ctx.body = `<h1>Index sayfasına hoşgeldiniz!</h1>`;
